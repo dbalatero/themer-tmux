@@ -177,6 +177,6 @@ apply_theme() {
     tmux setw -g clock-mode-colour $clock_mode_colour
 }
 
-${fs.readFileSync(path.resolve(__dirname, 'functions.bash'))}
+${fs.readFileSync(path.resolve(__dirname, '..', '..', 'src/layouts/functions.bash'))}
 
 apply_theme`;
